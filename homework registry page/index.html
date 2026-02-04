@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Homework Registry Page</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <h1>Homework Registry Page</h1>
+
+  <!-- STUDENT REGISTRY -->
+  <section>
+    <h2>Student Registry</h2>
+
+    <form id="studentForm">
+      <input type="text" id="firstName" placeholder="First Name" required />
+      <input type="text" id="lastName" placeholder="Last Name" required />
+      <input type="number" id="age" placeholder="Age" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <button type="submit">Add Student</button>
+    </form>
+
+    <ol id="studentList"></ol>
+  </section>
+
+  <hr />
+
+  <!-- REMINDER APP -->
+  <section>
+    <h2>Reminder App</h2>
+
+    <input type="text" id="title" placeholder="Title" />
+    <input type="number" id="priority" placeholder="Priority" />
+    <input type="color" id="color" />
+    <textarea id="description" placeholder="Description"></textarea>
+
+    <div class="buttons">
+      <button id="addReminder">Add Reminder</button>
+      <button id="showReminders">Show All Reminders</button>
+    </div>
+
+    <div id="reminderTable"></div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

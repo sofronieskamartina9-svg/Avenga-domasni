@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input, textarea, button {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  width: 250px;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+table {
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+}
